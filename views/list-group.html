@@ -1,0 +1,36 @@
+
+<div class="ulc-list-group" data-page="{{options.page}}">
+    {{#links}}
+    <a href="{{url_safe}}" target="_blank"{{#is_nofollow}} rel="nofollow" {{/is_nofollow}} class="ulc-list-group-item ulc-clearfix" data-id="{{id}}">
+    {{#logo_img}}
+    <span class="ulc-item-icon {{img_type}}">
+      <img src="{{logo_img}}" alt="" class="ulc-img-responsive">
+    </span>
+    {{/logo_img}}
+    {{^logo_img}}
+      {{#icon}}
+      <span class="ulc-item-icon" style="background-color: {{bg_icon}}">
+        <i class="fa {{icon}}"{{#icon_color}} style="color: {{icon_color}};"{{/icon_color}}></i>
+      </span>
+      {{/icon}}
+    {{/logo_img}}
+    <div class="ulc-item-name">
+      <span>{{{title}}}</span>
+    </div>
+    <div class="ulc-item-additional">
+      {{#description}}
+      <div class="ulc-item-description-wrapper" data-tooltip="popover" data-title="{{{title}}}">
+        <i class="fa fa-info" aria-hidden="true"></i>
+      </div>
+      {{/description}}
+      {{#options.is_likes}}<i class="fa fa-heart-o js-ulc-item-like" aria-hidden="true"></i>{{/options.is_likes}}
+      {{#is_new_tab}}<i class="fa fa-external-link" aria-hidden="true"></i>{{/is_new_tab}}
+    </div>
+  </a>
+  {{#description}}
+  <div class="ulc-item-description">
+    <div class="ulc-item-description-tooltip">{{{description}}}</div>
+  </div>
+  {{/description}}
+  {{/links}}
+</div>
