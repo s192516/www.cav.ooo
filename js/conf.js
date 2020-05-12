@@ -1,0 +1,33 @@
+var conf = [
+    {
+        title:"豆豆视频",
+        title_tip:"SexInSex",
+        icon:"images/1.png?0302",
+        url:"https://at.umtrack.com/onelink/CGPDya"
+    },
+    {
+        title:"体育|百家乐",
+        title_tip:"2019香蕉视频免费高清在线观看",
+        icon:"images/tiyu.png?0302",
+        url:"http://911873.com"
+    },
+    {
+        title:"爱看电影导航",
+        title_tip:"免费VIP热播电视剧在线观看",
+        icon:"images/dd.png?0302",
+        url:"https://www.akdydh.com/?www.cav.ooo.nav1"
+    },
+    {
+        title:"夜涩视频",
+        title_tip:"yesevip",
+        icon:"images/xxoo.png?0302",
+        url:"https://yes2.vip/?channelCode=yes2007"
+    },
+    {
+        title:"大番号app",
+        title_tip:"大番号",
+        icon:"images/dafanhao.png?0302",
+        url:"https://www.bigfh.space/?code=ydw"
+    },
+    
+];
