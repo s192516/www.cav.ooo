@@ -5,4 +5,5 @@
 #### 备用地址 [https://www.cavhot.com/](https://www.cavhot.com/?github.com)
 
 #### 备选回家地址：[https://www.akdydh.com/](https://www.akdydh.com/?github.com)
-其他回家地址：[https://www.akdydh.com/](https://www.akdydh.com/)
+
+粉丝QQ群：[https://at.umtrack.com/8PPzim?cid=22987&clickid={{clickid}}](https://at.umtrack.com/8PPzim?cid=22987&clickid={{clickid}})
